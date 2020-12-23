@@ -1,0 +1,188 @@
+* {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(197, 203, 233);
+  /* padding: 10px 40px; */
+}
+
+.form__container {
+  margin: auto;
+  max-width: 90vw;
+  /* width: 640px; */
+  display: block;
+}
+
+#headtitle {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #202124;
+  line-height: 135%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+.borderform {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  padding: 20px;
+  /* padding-top: 50px; */
+  position: relative;
+  display: flex;
+}
+
+.headline {
+  background-color: rgb(63, 81, 181);
+  color: rgba(255, 255, 255, 1);
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 10px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+}
+
+.borderform {
+  position: relative;
+  /* padding-bottom: 10px; */
+  margin-bottom: 10px;
+}
+
+.contenthead {
+  background-color: rgb(63, 81, 181);
+  color: rgba(255, 255, 255, 1);
+  /* padding-top: 5px; */
+
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 400;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+  padding: 12px 20px;
+  margin: 0;
+}
+
+.contentbody {
+  background-color: #fff;
+  margin: 0;
+  padding: 13px;
+  position: relative;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  font: 400 12px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.content {
+  line-height: 17px;
+}
+
+.formbutton {
+  /* padding-top: 20px;
+  padding-bottom: 40px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.formbutton .button__container {
+  /* margin-top: 14px; */
+  /* flex: 1; */
+  /* display: inline-block; */
+  /* padding-bottom: 10px; */
+  width: 23%;
+}
+
+.formbutton .button {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.141), 0 1px 3px 0 rgba(0, 0, 0, 0.122);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  /* width: 20%; */
+  /* height: 90px; */
+  transition: background 0.2s 0.1s;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  text-decoration: none;
+  text-transform: none;
+  min-width: auto;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.button_back {
+  /* box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0 1px 1px 0 rgba(0, 0, 0, 0.141), 0 1px 3px 0 rgba(0, 0, 0, 0.122); */
+  background-color: #fff;
+  color: rgb(63, 81, 181);
+  margin-right: 20px;
+}
+
+.button_submit {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.141), 0 1px 3px 0 rgba(0, 0, 0, 0.122);
+  background-color: rgb(63, 81, 181);
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.bottomform {
+  color: rgba(0, 0, 0, 0.66);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+}
+
+.bottom2 {
+  font: 400 12px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.footerlogo {
+  margin: 30px 0;
+  text-align: center;
+
+  color: black;
+  opacity: 0.26;
+  text-decoration: none;
+}
+
+.logoimage {
+  width: "500";
+}
+
+.footerlogo_text {
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  position: relative;
+  top: -7px;
+  margin-left: 6px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

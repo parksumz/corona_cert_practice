@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import DateTitle from "./DateTitle";
+import "./App.css";
+import "./DateTitle.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {};
+  getDateString = () => {
+    var date = new Date();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+
+    const datestr =
+      "[" +
+      month +
+      "월 " +
+      day +
+      "일 코로나-19 자가진단 COVID-19 Self-diagnosis]";
+
+    this.setState({ datestr });
+  };
+
+  componentDidMount() {
+    this.getDateString();
+  }
+
+  render() {
+    const { datestr } = this.state;
+    return <DateTitle datetitle={datestr} />;
+  }
 }
 
 export default App;
