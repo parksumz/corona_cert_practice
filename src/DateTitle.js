@@ -53,5 +53,4 @@ function DateTitle({ datetitle }) {
     </div>
   );
 }
-
 export default DateTitle;
